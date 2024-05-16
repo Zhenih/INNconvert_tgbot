@@ -23,9 +23,9 @@ namespace INNconvert_tgbot
             var message = update.Message;
                 if (message.Text != null)
                 {
-                    if (message.Text == "start")
+                    if (message.Text == "прив")
                     {
-                        await botClient.SendTextMessageAsync(message.Chat.Id, "прив");
+                        await botClient.SendTextMessageAsync(message.Chat.Id, "хеллоу ворлд");
                     }    
                 }
         }
