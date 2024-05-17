@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{48B5718F-947D-4DA9-9B7F-9D246D1C7075}"
 	ProjectSection(SolutionItems) = preProject
 		config.xml = config.xml
+		configFNS.xml = configFNS.xml
 	EndProjectSection
 EndProject
 Global
