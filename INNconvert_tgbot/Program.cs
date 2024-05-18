@@ -131,7 +131,7 @@ namespace INNconvert_tgbot
             {
                 string answer = "";
                 //Проверка корректности ввода, чтобы не отправлять заведомо некорректный Get-запрос
-                if (int.TryParse(message.Text, out int num) && (message.Text.Length == 10))
+                if (long.TryParse(message.Text, out long num) && (message.Text.Length == 10))
                 {
                     try
                     {
